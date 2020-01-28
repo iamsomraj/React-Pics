@@ -1,4 +1,5 @@
 {
+  "homepage": "https://iamsomraj.github.io/React-Pics",
   "name": "pics",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +15,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
